@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quiz-container">
+        <div class="container">
+
+            <h1>JavaScript Quiz</h1>
+
+            <div class="question">
+                <p>1. What does HTML stand for?</p>
+                <input type="radio" name="q1" value="A"> A. HyperText Markup Language<br>
+                <input type="radio" name="q1" value="B"> B. HyperTransfer Markup Language<br>
+                <input type="radio" name="q1" value="C"> C. HighText Machine Language<br>
+            </div>
+
+            <div class="question">
+                <p>2. Which of the following is a JavaScript framework?</p>
+                <input type="radio" name="q2" value="A"> A. Django<br>
+                <input type="radio" name="q2" value="B"> B. Flask<br>
+                <input type="radio" name="q2" value="C"> C. React<br>
+            </div>
+
+            <div class="question">
+                <p>3. What is the correct syntax for referring to an external script in JavaScript?</p>
+                <input type="radio" name="q3" value="A"> A. &lt;script src="script.js"&gt;<br>
+                <input type="radio" name="q3" value="B"> B. &lt;script href="script.js"&gt;<br>
+                <input type="radio" name="q3" value="C"> C. &lt;script link="script.js"&gt;<br>
+            </div>
+
+            <button id="submitBtn">Submit</button>
+
+            <div class="result hidden" id="resultContainer"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
